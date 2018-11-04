@@ -24,7 +24,7 @@
             @endauth
         </div>
     @endif
-{{!!menu('main','boostrap')!!}}
+{{!!menu('main','bootstrap')!!}}
     </div>
 </body>
 </html>
