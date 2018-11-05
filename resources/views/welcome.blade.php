@@ -14,17 +14,10 @@
 </head>
 <body>
     <div class="container">
-        @if (Route::has('login'))
-        <div class="top-right links">
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ route('login') }}">Login</a>
-                <a href="{{ route('register') }}">Register</a>
-            @endauth
-        </div>
-    @endif
+      
 {{!!menu('main','bootstrap')!!}}
     </div>
+  <h1>{{setting('admin.title')}} </h1> 
+
 </body>
 </html>
