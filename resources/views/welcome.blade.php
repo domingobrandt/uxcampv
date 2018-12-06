@@ -14,8 +14,8 @@
 </head>
 <body>
     <div class="container">
-      
-{{!!menu('main','bootstrap')!!}}
+        {{!!Menu::display('main', 'bootstrap');!!}}
+        {{!!menu('main','bootstrap')!!}}
     </div>
   <h1>{{setting('admin.title')}} </h1> 
 
