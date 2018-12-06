@@ -14,7 +14,7 @@
 --></head>
 <body>
         <nav class="navbar navbar-light bg-light">
-                {!!menu('main','bootstrap', 'mymenu')!!}
+                {!!menu('main','bootstrap')!!}
               </nav>
     <div class="container">
             <h1>{{setting('admin.title')}} </h1> 
