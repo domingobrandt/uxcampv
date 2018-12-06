@@ -14,7 +14,8 @@
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
         "tcg/voyager": "^1.1",
-        "fzaninotto/faker": "^1.4"
+        "fzaninotto/faker": "^1.4",
+        "gd": "*"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
