@@ -14,7 +14,7 @@
 </head>
 <body>
 
-                {!!menu('main','bootstrap')!!}
+                {!!menu('main','bootstrap','mymenu')!!}
 
     <div class="container">
             <h1>{{setting('admin.title')}} </h1> 
