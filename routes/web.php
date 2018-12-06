@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/googlecb77e256ced0f5e3.html', function () {
-    return view('googlecb77e256ced0f5e3.html');
+    return view('google');
 });
 
 
